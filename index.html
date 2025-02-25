@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athens & Santorini Itinerary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h3 {
+            background: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .day-card {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: white;
+        }
+        .image-slider {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .slider-images {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .slider-images img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+        .slider-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .slider-button.left { left: 10px; }
+        .slider-button.right { right: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Athens & Santorini Trip Itinerary</h1>
+        <div class="image-slider">
+            <button class="slider-button left" onclick="slideImages(-1)">&#9664;</button>
+            <div class="slider-images">
+                <img src="https://ourlittlelifestyle.com/wp-content/uploads/2024/01/Historcal-Sites-in-Athens-Greece-01.jpg" alt="Athens View">
+                <img src="https://ourlittlelifestyle.com/wp-content/uploads/2024/01/Historcal-Sites-in-Athens-Greece-02.jpg" alt="Acropolis">
+                <img src="https://www.norwegian.com/globalassets/ip/media/03_inspiration/gr-athen-top-10/ath-greece-adobe-225629353-1200x800.jpg" alt="Athens Top View">
+                <img src="https://images.santorini-view.com/f5c628f4_c0c8_4667_9877_bc72f5be2195.limghandler.jpg?i=aT0lMmZ1cGxvYWRlZGZpbGVzJTJmMjAyNSUyZjAxJTJmMjElMmZmNWM2MjhmNC1jMGM4LTQ2NjctOTg3Ny1iYzcyZjViZTIxOTUuanBnJnc9NzIwJmg9NTQwJnN0PXRydWUmYmc9MTY3NzcyMTUmY3I9dHJ1ZSZhdD00" alt="Santorini Cliffs">
+                <img src="https://santorinibesttours.com/sites/default/files/top-attractions-listing/perissa-perivolos-black-sandy-beach.jpg" alt="Santorini Black Beach">
+                <img src="https://www.greektravel.com/greekislands/santorini/sailing/santorini-catamaran-cruise01.jpg" alt="Santorini Catamaran">
+                <img src="https://outdoorbeginner.com/wp-content/uploads/2017/11/img_0294.jpg" alt="Santorini Sunset">
+            </div>
+            <button class="slider-button right" onclick="slideImages(1)">&#9654;</button>
+        </div>
+        <h2>📅 May 11-17</h2>
+        
+        <h2>🏛 Athens (May 11-14)</h2>
+        <div class="day-card">
+            <h3>📍 May 11 – Arrival & Exploring Athens</h3>
+            <p>🏠 <a href="https://www.airbnb.com/rooms/36191151">Airbnb in Athens</a></p>
+            <p><strong>Plaka & Anafiotika</strong> – 🏛 <a href="https://maps.app.goo.gl/Bg7e5mcEscTaVBLp8">Google Maps</a> - Wander through this charming, historic neighborhood filled with whitewashed houses, colorful doors, and a relaxed island-like atmosphere.</p>
+            <p><strong>Areopagus Hill</strong> – 🌄 <a href="https://maps.app.goo.gl/JExiPYyiSrSMmZbF7">Google Maps</a> - A rocky outcrop near the Acropolis offering breathtaking sunset views over Athens.</p>
+            <p><strong>SENSE Restaurant</strong> – 🍽 <a href="https://maps.app.goo.gl/CSv7iSkNeyEQQt5r7">Google Maps</a> - A rooftop dining experience with panoramic views of the illuminated Acropolis.</p>
+            <p><strong>Brettos Bar</strong> – 🍷 <a href="https://maps.app.goo.gl/vqL9rPzKMP71GEvg7">Google Maps</a> - The oldest distillery in Athens, known for its vast selection of Greek spirits and cozy ambiance.</p>
+        </div>
+
+        <div class="day-card">
+            <h3>🏠 May 12 – Ancient Athens & Hidden Gems</h3>
+            <p><strong>Acropolis & Parthenon</strong> – 🏛 <a href="https://maps.app.goo.gl/sVcEQcJEUSyu7vq89">Google Maps</a> - The iconic temple dedicated to Athena, a must-see architectural wonder with centuries of history.</p>
+            <p><strong>Temple of Olympian Zeus & Hadrian’s Arch</strong> – 🏛 <a href="https://maps.app.goo.gl/kAE5HLF36Y2mSmhz8">Google Maps</a> - One of the largest temples of the ancient world, showcasing impressive Corinthian columns.</p>
+            <p><strong>Monastiraki Flea Market</strong> – 🛍 <a href="https://maps.app.goo.gl/NQhVU2GFtxNMMq197">Google Maps</a> - A vibrant marketplace with unique souvenirs, antiques, and local food stalls.</p>
+            <p><strong>A for Athens Rooftop</strong> – 🍸 <a href="https://maps.app.goo.gl/XdzYnXWcPaPGAA1k7">Google Maps</a> - A popular rooftop bar offering breathtaking views of the Acropolis at sunset.</p>
+        </div>
+
+        <h2>🏝 Santorini (May 14-17)</h2>
+        <div class="day-card">
+            <h3>📍 May 14 – Arrival & Exploring Fira</h3>
+            <p>🏠 <a href="https://www.airbnb.com/rooms/50696713">Airbnb in Santorini</a></p>
+            <p><strong>Fira</strong> – 🏙 <a href="https://maps.app.goo.gl/sc581fhj3sEoYnUQ8">Google Maps</a> - The capital of Santorini, boasting stunning cliffside views, boutique shops, and vibrant nightlife.</p>
+            <p><strong>Pelican Kipos</strong> – 🍷 <a href="https://maps.app.goo.gl/Z6oyXamZZUXwTXqQ6">Google Maps</a> - A hidden gem in Fira, this wine bar offers a cozy atmosphere and a selection of Santorini wines.</p>
+            <p><strong>Kastro Oia Restaurant</strong> – 🌅 <a href="https://maps.app.goo.gl/6tcBXzvZ8WD6h83i6">Google Maps</a> - One of the best places to watch the famous Santorini sunset while enjoying a delicious meal.</p>
+        </div>
+
+        <div class="day-card">
+            <h3>🛥 May 16 – Sunset Catamaran Cruise</h3>
+            <p><strong>Perivolos Beach</strong> – 🏖 <a href="https://maps.app.goo.gl/1aPdAv6AsLEMLVHP8">Google Maps</a> - A long stretch of black sand beach with crystal-clear waters, lined with beach bars and restaurants offering sunbeds and umbrellas. Perfect for swimming, sunbathing, and enjoying a relaxed beach day.</p>
+            <p><strong>Sunset Catamaran Cruise</strong> – ⛵ <a href="https://www.viator.com/tours/Santorini/Santorini-Sailing-Cruise-to-Red-Beach-and-Akrotini/d959-17549P2">Viator Link</a> - Departs from Vlychada Port at 3:30 PM. Includes stops at Red Beach, White Beach, and the hot springs. Enjoy a BBQ dinner, unlimited drinks, and a stunning sunset view from the water. Returns to Fira in the evening.</p>
+        </div>
+
+        <div class="day-card">
+            <h3>🍇 May 17 – Wine Tasting & Departure</h3>
+            <p><strong>Santo Wines Winery</strong> – 🍇 <a href="https://maps.app.goo.gl/NWw8sKiSX7Hz9PLK8">Google Maps</a> - A breathtaking cliffside winery offering panoramic views of the caldera and top-tier local wines.</p>
+            <p>✈ <strong>Flight from Santorini to Athens, then to Sweden for Mike and back to Texas for Daiane (unless you want to come to Sweden lol).</strong></p>
+        </div>
+
+        <script>
+            let index = 0;
+            function slideImages(direction) {
+                const slider = document.querySelector('.slider-images');
+                const images = document.querySelectorAll('.slider-images img');
+                const totalImages = images.length;
+                index = (index + direction + totalImages) % totalImages;
+                slider.style.transform = `translateX(-${index * 100}%)`;
+            }
+        </script>
+    </div>
+</body>
+</html>
